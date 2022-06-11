@@ -1,10 +1,15 @@
-import logo from './logo.svg';
+
+
 import './App.css';
+
+import Home from './PortfolioContainer/Home/Home';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>hello brother</h1>
+      <Home></Home>
+      
     </div>
   );
 }
